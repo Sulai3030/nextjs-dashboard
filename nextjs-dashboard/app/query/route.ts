@@ -15,8 +15,7 @@ async function listInvoices() {
 
 export async function GET() {
   return Response.json({
-    message:
-
+    message: "Hello, world!" // Provide a valid expression for the message
   });
   try {
  	return Response.json(await listInvoices());
